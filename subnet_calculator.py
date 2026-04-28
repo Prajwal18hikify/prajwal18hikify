@@ -15,3 +15,4 @@ def analyze_network(cidr):
 analyze_network("192.168.1.0/24")
 analyze_network("10.0.0.0/16")
 analyze_network("172.16.0.0/12")
+
