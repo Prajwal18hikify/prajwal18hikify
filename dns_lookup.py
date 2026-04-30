@@ -26,6 +26,6 @@ def lookup_dns(domain):
             print(f" → none found")
 
     print(f"\n-----------------------------------")
-lookup_dns("google.com")
+lookup_dns("google.com")  
 
     
