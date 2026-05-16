@@ -22,5 +22,5 @@ Linux • Networking • Docker • Git
 Launch CloudGuard-affordable 
 AI Cloud security for every company.
 
-# Bengaluru, India
+## Bengaluru, India
 linkedin.com/in/Prajwal CK
