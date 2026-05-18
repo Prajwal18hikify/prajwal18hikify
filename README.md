@@ -13,7 +13,7 @@ _Engineering resilient, automated defense systems for cloud-native infrastructur
 ---
 
 ## 🛡️ Executive Summary
-I am a Cloud Security Engineer based in Bengaluru, pivoting from a **Biotechnology background** to engineer next-generation infrastructure defense mechanisms. 
+I am a Cloud Security Engineer based in Bengaluru, pivoting from a **Biotechnology background** to engineer next-generation infrastructure defense mechanisms .
 
 Currently, I am founding **CloudGuard**, an AI-powered cloud misconfiguration scanner designed to democratize enterprise-grade cloud security by closing the massive market gap left by legacy tools.
 
