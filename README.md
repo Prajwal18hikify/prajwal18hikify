@@ -5,7 +5,7 @@
 
 _Engineering resilient, automated defense systems and building the future of cloud posture management._
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/prajwal-ck) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/prajwal-ck-cloudguard) 
 [![Followers](https://img.shields.io/badge/Followers-2-grey?style=flat-square)](#)
 
 </div>
@@ -59,9 +59,10 @@ I am founding **CloudGuard**—an AI-powered cloud misconfiguration scanner desi
 <div align="center">
 
 **Building in Public** · Committed to a strict 150-Day intensive security engineering milestone.  
-**Professional Network:** [linkedin.com/in/prajwal-ck](https://linkedin.com/in/prajwal-ck)  
+**Professional Network:** [linkedin.com/in/prajwal-ck-cloudguard](https://linkedin.com/in/prajwal-ck-cloudguard)  
 _Bengaluru, India_
 
 </div>
+
 
 
