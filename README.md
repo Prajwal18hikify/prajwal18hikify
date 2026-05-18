@@ -14,7 +14,7 @@ _Engineering resilient, automated defense systems and building the future of clo
 
 ## 👤 Executive Summary
 
-I am a highly focused **AI Cloud Security Engineer** and founder based in Bengaluru, dedicated to designing next-generation infrastructure defense mechanisms.
+I am a highly focused **AI Cloud Security Engineer** and solo founder based in Bengaluru, dedicated to designing next-generation infrastructure defense mechanisms.
 
 I am founding **CloudGuard**—an AI-powered cloud misconfiguration scanner designed to democratize enterprise-grade cloud security by closing the massive market gap left by legacy tools.
 
@@ -26,7 +26,7 @@ I am founding **CloudGuard**—an AI-powered cloud misconfiguration scanner desi
 
 ## 🚀 Active Objectives & Milestones
 
-* **🛠️ Product Engineering:** Architecting the core engine and MVP for the **CloudGuard AI Scanner**.
+* **🛠️ Product Engineering:** Architecting the core backend engine and MVP for the **CloudGuard AI Scanner**.
 * **🐧 Infrastructure Automation:** Developing daily automated Linux security vectors and robust Python tooling.
 * **📜 Continuous Education Roadmap:**
   * **AWS Cloud Practitioner** (`🔄 In Progress`)
@@ -40,7 +40,7 @@ I am founding **CloudGuard**—an AI-powered cloud misconfiguration scanner desi
 
 * **Cloud Platforms:** Amazon Web Services (AWS), Google Cloud Platform (GCP)
 * **Languages & Core Automation:** Python 3.x, Boto3, Linux Bash Scripting
-* **Frontend Ecosystem:** React.js, Tailwind CSS
+* **Core Focus:** Cloud Security Posture Management (CSPM), DevSecOps Automation, Vulnerability Scanning
 
 ---
 
@@ -63,6 +63,7 @@ I am founding **CloudGuard**—an AI-powered cloud misconfiguration scanner desi
 _Bengaluru, India_
 
 </div>
+
 
 
 
