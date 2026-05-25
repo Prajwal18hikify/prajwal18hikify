@@ -1,7 +1,19 @@
+#!/usr/bin/env python3
+"""
+subnet_calculator.py - Network & CIDR Analyser
+CloudGuard Phase 1  | Day 1  | Prajwal CK
 
+What it does:
+- Analyses any IP network in CIDR notation
+- Shows network address, broadcast, first/last host
+
+Usage: python subnet_calculator.py
+"""
+# Built-in Python library for IP calculations
 import ipaddress
 
 def analyze_network(cidr):
+    # strict=False allows host bits in CIDR
     network = ipaddress.ip_network(cidr, strict=False)
 
     print(f"\nAnalyzing : {cidr}")
