@@ -1,6 +1,27 @@
+#!/usr/bin/env python3
+"""
+port_scanner.py - Open Port & Risk Detector
+CloudGuard Phase 1  | Day 2  | Prajwal CK
+
+What it does:
+- Scans any host for open TCP ports
+- Flags dangerous services with risk levels
+- Uses multi-threading for fast scanning
+
+Why it matters for CloudGuard:
+- Detects exposed databases and services
+- Verifies AWS Security Group rules are enforced
+
+Usage: python port_scanner.py 192.168.1.1
+"""
+
+# socket = Python networking library for TCP connections
+# datetime = for timestamp in scan report
+
 import socket
 import datetime
 
+# Dictionary of ports to scan - port: service name
 PORTS = {
     22: "SSH",
     80: "HTTP",
@@ -11,8 +32,11 @@ PORTS = {
     8080: "HTTP-Alt"
 }
 
+# Ports that should NEVER be open to internet
+# If open = flag as DANGEROUS in output
 DANGEROUS = [22,3306,5432,6379]
 
+# Try to connect to each port - if success = port is open
 def scan_port(ip, port):
     sock = socket.socket(
         socket.AF_INET,
