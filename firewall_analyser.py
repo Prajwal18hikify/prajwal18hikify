@@ -1,3 +1,21 @@
+#!/usr/bin/env python3
+"""
+firewall_analyser.py - firewall Rule Auditor
+CloudGuard Phase 1  | Day 5  | Prajwal CK
+
+What it does:
+- Reads firewall rules from JSON file
+- Flags 0.0.0.0/0 on dangerous ports as CRITICAL
+- Risk levels: CRICTICAL / HIGH / MEDIUM
+
+Why it matters for CloudGuard:
+- This is the core of CloudGuard Phase 2
+- Phase 2 replaces JSON with real AWS Security Groups
+- 0.0.0.0/0 = #1 cause of cloud breached
+
+Usage: python firewall_analyser.py rules.json
+"""
+
 import datetime
 
 DANGEROUS_PORTS = {
