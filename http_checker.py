@@ -1,4 +1,19 @@
+#!/usr/bin/env python3
+"""
+http_checker.py - HTTP & Security Headers
+CloudGuard Phase 1  | Day 4  | Prajwal CK
 
+What it does: 
+- Checks if HTTPS is enabled
+- Checks TLS version (1.2 or 1.3 required)
+- Audits 7 critical security headers
+
+Why it matters for CloudGuard:
+- Web application security check in Phase 4
+- Missing headers = SOC2 compliance failure
+
+Usage: python http_checker.py https://example.com  
+"""
 import requests
 import datetime
 
