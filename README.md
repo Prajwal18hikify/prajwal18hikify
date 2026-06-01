@@ -1,6 +1,6 @@
 <div align="center">
 
-# PRAJWAL CK 🛡️
+# Prajwal CK 🛡️
 
 ### Founder & AI Cloud Security Engineer | DevSecOps Engineer
 
