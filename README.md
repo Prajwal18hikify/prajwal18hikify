@@ -153,9 +153,7 @@ Building in public. Every day. If you are a recruiter, engineer, or founder inte
 
 -----
 
-<div align="center">
-
-*“The five months pass whether you follow this plan or not.”*
+<div align="centre"
 
 **Building CloudGuard · 150 Days · All In**
 
