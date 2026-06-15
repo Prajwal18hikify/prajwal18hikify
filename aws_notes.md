@@ -52,3 +52,30 @@ OS patches, IAM, Security Groups, encryption, app security
 - KMS = Key Management Service
 
 ---
+
+## Domain 3 - Techonology (34%)
+
+
+### Core Services
+-EC2 = virtual servers
+-S3 = object storage (buckets + objects)
+-VPC = virtual private network
+-RDS = managed relational database
+-Lambda = serverless compute
+-CloudWatch = monitoring + logging
+
+### S3 Security (Exam loves this)
+-Block Public Access - prevent accidential public buckets
+-Encryption at rest - SSE-S3 or SSE-KMS
+-Versioning - protect against deletion/ransomware
+-Access Logging - track who accessed what
+-Bucket Policies - JSON access control
+
+### VPC Components
+-Subnet (public vs private)
+-Security Group (instance-level, stateful)
+-NACL (subnet-level, stateless)
+-Internet Gateway (public internet access)
+-NAT Gateway (private subnet internet access)
+
+---
