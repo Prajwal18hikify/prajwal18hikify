@@ -19,6 +19,7 @@ Usage: python ip_intel.py 8.8.8.8
 import requests
 import json
 import sys
+import argparse
 
 class IPIntel:
     """
@@ -91,14 +92,29 @@ class IPIntel:
             print(f"[PASS] Organisation looks normal")
 
         print("\n" + "="*50 + "\n")
+    def save_results(self, filename="results.json"):
+            with open(filename, "a") as f:
+                json.dump(self.data, f, indent=4)
+                f.write("\n")
+            print(f"[SAVED] Results saved to {filename}")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python ip_intel.py <py>")
-        print("Example: python ip_intel.py 8.8.8.8")
-        sys.exit(1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("ips", nargs="*")
+    parser.add_argument("--save", action="store_true")
+    parser.add_argument("--file")
+    args = parser.parse_args()
 
-    intel = IPIntel(sys.argv[1])
-    intel.analyse()
+    if args.file:
+        with open(args.file, "r") as f:
+            ip_list = [line.strip() for line in f]
+    else:
+        ip_list = args.ips
+
+    for ip in ip_list:
+        intel = IPIntel(ip)
+        intel.analyse()
+        if args.save:
+            intel.save_results()
     
