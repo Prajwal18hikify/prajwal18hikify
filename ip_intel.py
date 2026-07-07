@@ -100,10 +100,18 @@ class IPIntel:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("ips", nargs="*")
-    parser.add_argument("--save", action="store_true")
-    parser.add_argument("--file")
+    parser = argparse.ArgumentParser(
+        description="CloudGuard IP Intelligence Tool - by Prajwal CK",
+        epilog="Example: python3 ip_intel.py 8.8.8.8 1.1.1.1 --save"
+    )
+    parser.add_argument("ips", nargs="*",
+        help="One or more IP addresses to scan")
+    parser.add_argument("--save", action="store_true",
+        help="Save results to results.json")
+    parser.add_argument("--file",
+        help="Text file with one IP per line")
+    parser.add_argument("--version", action="version",
+        version="ip_intel v1.0.0")
     args = parser.parse_args()
 
     if args.file:
@@ -117,4 +125,3 @@ if __name__ == "__main__":
         intel.analyse()
         if args.save:
             intel.save_results()
-    
